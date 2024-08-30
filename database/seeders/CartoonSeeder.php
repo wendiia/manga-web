@@ -5,14 +5,14 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class TitleSeeder extends Seeder
+class CartoonSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        DB::table('titles')->insert([
+        DB::table('cartoons')->insert([
             [
                 'type_id' => 1,
                 'title' => 'Волк в доме',
